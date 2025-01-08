@@ -1,0 +1,147 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #e5e5e5;
+  color: #000;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000 !important;
+}
+
+nav a:hover {
+  border: none;
+  border-radius: 10px;
+  background-color: #005cce;
+  text-decoration: none;
+  color: #000 !important;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#jobs li {
+  margin-bottom: 10px;
+  padding: 2%;
+}
+
+#jobs li {
+  background: #ccf;
+}
+
+#jobs li:nth-child(odd) {
+  background: #ddf;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  color: #fff;
+  background-color: #222;
+}
+
+#addjobs {
+  background-color: #ddf;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#addjobs h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+#addjobs label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#addjobs input[type="text"],
+#addjobs select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#addjobs textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#addjobs input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#addjobs input[type="submit"]:hover {
+  background-color: #0062cc;
+}
